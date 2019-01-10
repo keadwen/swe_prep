@@ -1,4 +1,4 @@
-// Package sorts contains various sorting algorithms. 
+// Package sorts contains various sorting algorithms.
 package sorts
 
 // Insertion implements insertion sort algorithm for int slices.
@@ -7,7 +7,7 @@ func Insertion(data []int) []int {
 	copy(sorted, data)
 
 	for i := 1; i < len(data); i++ {
-		j := i - 1;
+		j := i - 1
 		item := sorted[i]
 		for ; j >= 0 && item < sorted[j]; j -= 1 {
 			sorted[j+1] = sorted[j]
