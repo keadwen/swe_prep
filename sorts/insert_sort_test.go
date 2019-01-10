@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestingInsertion(t *testing.T) {
+func TestInsertion(t *testing.T) {
 	tests := []struct {
 		name string
 		data []int
